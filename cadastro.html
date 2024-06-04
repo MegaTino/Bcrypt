@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cadastro.js" defer></script>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastrar</title>
+</head>
+
+<body>
+  <div id="encima">
+    <button onclick="location.href ='inicio.html'">Voltar</button>
+  </div>
+    <div id="centro">
+      <br><br><br>
+      <h1>Cadastrar usuários</h1><br><br><br>
+        <label for="nome">Digite o nome do usuário</label><br>
+    <input type="name" id="nome"><br><br>
+    <label for="email">Digite o email</label><br>
+    <input type="email" id="email"><br><br>
+
+    <div class="password-container">
+    <label for="senha">Digite a senha 🔒</label><br>
+    <input type="password" id="senha">
+    <img src="olhofechado.png" class="eye-icon" id="togglePasswordVisibility" onclick="togglePasswordVisibility()">
+   </div>  
+   <div id="res_gravar"></div>
+
+    <br><br><br>
+    <p>Já sou um usuário cadastrado!</p>
+    <a href="login.html">Click aqui</a>
+    
+    </div>
+    <br><br>
+    <button id="gravar">Cadastrar</button><br><br><br>
+    
+</body>
+
+</html>

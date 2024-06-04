@@ -28,4 +28,4 @@ Este documento descreve o funcionamento de um sistema de cadastro e login para u
 - Backend: Node.js, Express.js
 - Banco de Dados: MySQL
 
-Este sistema de cadastro e login oferece uma maneira segura e conveniente para os usuários acessarem a aplicação, garantindo a proteção de suas informações pessoais.
+Este sistema de cadastro e login oferece uma maneira segura e conveniente para os usuários acessarem a aplicação, garantindo a proteção de suas informações pessoais.s

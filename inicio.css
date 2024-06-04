@@ -1,0 +1,40 @@
+body {
+    font-size: 10px;
+    font-weight: lighter;
+    background-color: black;
+    text-align: center;
+    background-image: url('background_inicio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+button {
+    background-color: white;
+    border-color: transparent;
+    border-radius: 2px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+}
+button:hover{
+    background-color:black;
+    
+    border-color: transparent;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover::after{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 1200px;
+    height: 35px;
+    font-weight: bold;
+    color: white;
+}
